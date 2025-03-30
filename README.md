@@ -11,7 +11,6 @@ PortShow เป็นโปรเจคสำหรับแสดงผลง�
 ## 🛠️ เทคโนโลยีที่ใช้
 - **Frontend:** React.js + Vite
 - **Styling:** Tailwind CSS
-- **State Management:** React Hooks
 
 ## 🚀 การติดตั้งและใช้งาน
 
@@ -47,13 +46,7 @@ PortShow/
 │── vite.config.js       # ตั้งค่า Vite
 ```
 
-## 📌 TODO
-- [ ] เพิ่ม Animation เพื่อให้ UI สวยงามขึ้น
-- [ ] เพิ่ม Dark Mode
-- [ ] ปรับแต่ง SEO เพื่อให้ค้นหาได้ดีขึ้น
-
 ## 👨‍💻 ผู้พัฒนา
 [Sirapop01](https://github.com/Sirapop01)
 
-หากมีข้อเสนอแนะหรือพบปัญหา สามารถเปิด Issue หรือ Pull Request ได้เลย! 😊
 
