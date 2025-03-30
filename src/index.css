@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+    margin: 0;
+    @apply bg-primary-bg;
+    @apply text-primary-subcontent;
+  }
+}
+
+@ketframes appen-animate {
+  from{
+    transform: translatex(-100%);
+    opacity: 0;
+  }
+
+  to{
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+
+.new-arrow{
+  animation: appen-animate 0.5s ease-out;
+}
