@@ -1,12 +1,52 @@
-# React + Vite
+# PortShow - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PortShow เป็นโปรเจคสำหรับแสดงผลงาน Portfolio ของนักพัฒนา โดยใช้ **React.js** ร่วมกับ **Vite** และ **Tailwind CSS** เพื่อสร้างเว็บไซต์ที่รวดเร็ว ทันสมัย และตอบสนองได้ดี (Responsive)
 
-Currently, two official plugins are available:
+## 🔥 Features
+- แสดงข้อมูลส่วนตัวและประวัติการทำงาน
+- แสดงโปรเจคและบทความที่เคยทำ
+- เมนู Navigation ที่อัปเดตอัตโนมัติตาม Section
+- รองรับการใช้งานบนอุปกรณ์ทุกขนาด (Mobile-first Design)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ เทคโนโลยีที่ใช้
+- **Frontend:** React.js + Vite
+- **Styling:** Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🚀 การติดตั้งและใช้งาน
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone Repo
+```bash
+git clone https://github.com/Sirapop01/PortShow.git
+cd PortShow
+```
+
+### 2. ติดตั้ง Dependencies
+```bash
+npm install
+```
+
+### 3. รันโปรเจค
+```bash
+npm run dev
+```
+แล้วเปิด **http://localhost:5173/** ในเว็บเบราว์เซอร์
+
+## 📂 โครงสร้างโปรเจค
+```
+PortShow/
+│── src/
+│   ├── components/      # คอมโพเนนต์ที่ใช้ซ้ำ
+│   ├── sections/        # Section ต่างๆ ในหน้า Portfolio
+│   ├── assets/          # ไฟล์รูปภาพ ไอคอน
+│   ├── App.jsx          # คอมโพเนนต์หลักของแอปพลิเคชัน
+│   ├── main.jsx         # จุดเริ่มต้นของ React
+│── public/              # ไฟล์ Static เช่น favicon
+│── package.json         # รายการ dependencies
+│── tailwind.config.js   # ตั้งค่า Tailwind CSS
+│── vite.config.js       # ตั้งค่า Vite
+```
+
+## 👨‍💻 ผู้พัฒนา
+[Sirapop01](https://github.com/Sirapop01)
+
+
