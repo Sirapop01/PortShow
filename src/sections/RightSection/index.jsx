@@ -10,17 +10,11 @@ const RigthSection = ({ onInitial }) => {
         <div className="grid gap-y-14 lg:gap-y-40 px-3">
 
             <div className=''>
-                <About 
-                onInitial={onInitial}
-                title="About"
+                <About
+                    onInitial={onInitial}
+                    title="About"
                 />
             </div>
-            <ContentContainer
-                onInitial={onInitial}
-                title="Experience"
-                data={dataExperience}
-
-            />
 
             <ContentContainer
                 onInitial={onInitial}
@@ -28,11 +22,14 @@ const RigthSection = ({ onInitial }) => {
                 data={dataProject}
             />
 
-            <ContentContainer
-                onInitial={onInitial}
-                title="Article"
-                data={dataExperience}
-            />
+            <div className="pb-56">
+                <ContentContainer
+                    onInitial={onInitial}
+                    title="Experience"
+                    data={dataExperience}
+                />
+            </div>
+
 
             <Footer />
         </div>

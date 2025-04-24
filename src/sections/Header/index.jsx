@@ -7,7 +7,7 @@ const Header = () => {
             <div className='text-3xl text-primary-title font-semibold'>{data.name}</div>
             <div className='text-primary-subcontent font-semibold'>{data.title}</div>
             <div className='text-sm'>{data.caption}</div>
-            <a href='' target='_blank' >
+            <a href='https://www.canva.com/design/DAGi7cYKvrE/rCZxZCLayEBmeRJr-9I1ug/edit?utm_content=DAGi7cYKvrE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' target='_blank' >
                 <div className='my-4 '>
                     <span className='rounded-md bg-primary-title text-gray-300 py-2 px-4'>
                         {data.btnText}

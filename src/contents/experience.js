@@ -4,39 +4,17 @@ import picExp from "/src/assets/experience.png";
 
 export const data = [
     {
-        date: "2022 - 2023",
-        title: "ShirtStore",
-        link: "http://localhost:5173/",
+        date: "2024",
+        title: "Internal Affairs and Assets Officer",
         materials: [
-            { type: faGithub, link: "http://localhost:5173/" },
             { type: faYoutube, link: "http://localhost:5173/" },
         ],
         descriptions: [
-            "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            "Student Organization Council, Kasetsart University Sriracha Campus",
+            "Handled document reception and distribution for formal matters",
+            "Verified official documents for the Office of Student Affairs",
         ],
-        skills: [
-            ["React", "Tailwind"],
-            ["React", "Tailwind", "NodeJs"]
-        ],
-        picture: picExp,
-    },
-    {
-        date: "2023 - 2024",
-        title: "MacthWeb",
-        link: "",
-        materials: [
-            { type: faGithub, link: "http://localhost:5173/" },
-            { type: faYoutube, link: "http://localhost:5173/" },
-        ],
-        descriptions: [
-            "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-        ],
-        skills: [
-            ["React", "Tailwind"],
-            ["React", "Tailwind", "NodeJs"]
-        ],
+
         picture: picExp,
     },
 

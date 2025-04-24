@@ -35,7 +35,7 @@ const ContentContainer = ({
                 }, index) => (
                     <div
                         key={`${SECTION_ID}-${index}-${title.replaceAll(" ", "")}`}
-                        className={`grid grid-cols-[25%_75%] rounded-md px-2 py-6 duration-500 ${isMouseEnter[`${SECTION_ID}-${index}`] ? "bg-primary-bghover" : ""} `}
+                        className={`grid grid-cols-[25%_75%] rounded-md  px-2 py-6 duration-500   ${isMouseEnter[`${SECTION_ID}-${index}`] ? "bg-primary-bghover" : ""} `}
                         onMouseLeave={() => setIsMouseEnter({ [`${SECTION_ID}-${index}`]: false })}
                         onMouseEnter={() => setIsMouseEnter({ [`${SECTION_ID}-${index}`]: true })}
                     >
@@ -43,7 +43,7 @@ const ContentContainer = ({
                             <FormattedDate isHighLight={isMouseEnter[`${SECTION_ID}-${index}`]}>{date}</FormattedDate>
                             <Picture picture={picture} title={title} />
                         </div>
-                        <div className="grid gap-y-4">
+                        <div className="grid gap-y-4 w-">
                             <TitleLink isHighLight={isMouseEnter[`${SECTION_ID}-${index}`]} title={title} link={link} />
                             {
                                 materials.length > 0 ?

@@ -28,21 +28,28 @@ function App() {
   };
 
   const handleScroll = () => {
-    for(let index = 0; index < sectionIds.length; index++) {
+    for (let index = 0; index < sectionIds.length; index++) {
       const el = sectionIds[index];
       const eloffsetTop = document.getElementById(el).getClientRects()[0].y;
       const height = document.getElementById(el).getClientRects()[0].height * 0.5;
       const viewHeight = window.innerHeight * 0.3;
-
-      if(eloffsetTop <= 0 ){
-        if((eloffsetTop + height) > viewHeight){
+  
+      if (eloffsetTop <= 0) {
+        if ((eloffsetTop + height) > viewHeight) {
           setCurrentSection(el);
         }
-      }else if(eloffsetTop > 0 && eloffsetTop < viewHeight){
+      } else if (eloffsetTop > 0 && eloffsetTop < viewHeight) {
         setCurrentSection(el);
       }
     }
   }
+
+  const scrollToExperience = () => {
+    const experienceSection = document.getElementById("experience-section");
+    experienceSection.scrollIntoView({ behavior: "smooth" });
+  };
+  
+  
 
   useEffect(() => {
     if (sectionIds.length > 0) {
@@ -59,7 +66,7 @@ function App() {
   }, [sectionIds])
 
   return (
-    <div className="mt-14 mx-auto max-w-6xl grid gap-y-5 lg:grid-cols-[40%_60%]">
+    <div className="mt-14 mx-auto max-w-6xl grid gap-y-5 lg:grid-cols-[40%_60%] ">
       <LeftSection navBarItems={navBarItems} currentSection={currentSection} />
       <RigthSection onInitial={addSectionIds} />
     </div>
