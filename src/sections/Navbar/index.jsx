@@ -5,7 +5,7 @@ import { useState } from "react";
 const navs = [
     { title: "About", sectionId: "About-section" },
     { title: "Project", sectionId: "Project-section" },
-    { title: "Experience", sectionId: "Experience-section" },
+    { title: "Activity", sectionId: "Activity-section" },
 ]
 const Navbar = ({navBarItems, currentSection}) => {
     const [isMouseEnter, setIsMouseEnter] = useState(false);

@@ -1,6 +1,6 @@
 import ContentContainer from "../../component/ContentContainer";
 import About from "../About";
-import { data as dataExperience } from "../../contents/experience";
+import { data as dataActivity } from "../../contents/activities";
 import { data as dataProject } from "../../contents/project";
 import Footer from "../Footer";
 
@@ -25,8 +25,8 @@ const RigthSection = ({ onInitial }) => {
             <div className="pb-56">
                 <ContentContainer
                     onInitial={onInitial}
-                    title="Experience"
-                    data={dataExperience}
+                    title="Activity"
+                    data={dataActivity}
                 />
             </div>
 
